@@ -1,0 +1,20 @@
+.Ldisplay{
+    border: 1px solid black;
+    height: 250px;
+    width: 30%;
+    margin-left: 460px;
+    margin-top: 150px;
+    background-color: rgb(215, 240, 250);
+}
+.abc{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.faculty{
+    width: 65%;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-left: 220px;
+    padding: 20px;
+}

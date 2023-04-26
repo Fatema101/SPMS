@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPMS</title>
+    <link rel="stylesheet" href="/static/login.css">
+</head>
+<body>
+    <div class="Ldisplay">
+        <h1 style="text-align: center; margin-bottom: 10px;" >Login</h1>
+    <form action=" " method="post" >
+        {% csrf_token %}
+       <div class="abc">
+        <b><label for="">User ID:</label><br></b>
+        <input type="text" name="id">
+        </div>
+        <div class="abc">
+        <b><label for="">Password</label><br></b>
+        <input type="text" name="pass">
+        </div>
+        <div class="abc">
+            <button style="background-color:rgb(202, 201, 211); height: 35px; width: 70px; border-radius: 10%;" type="submit">Login</button>
+        </div>
+    </form>
+    </div>
+    
+</body>
+</html>
