@@ -7,11 +7,12 @@
     <title>Document</title>
 </head>
 <body>
+    <h2>Your ID {{ data.ID }}</h2>
     <h1>Display the percentage of course outcomes achieved based on grades for all courses.</h1>
 
     <form action="{% url 'displayStudent' %}" method="post">
         {% csrf_token %}
-        <p>{{ data.ID }}</p>
+        
         <input type="hidden" name="S_id" value="{{ data.ID }}">
         <button type="submit" name="Btn1">Click here</button>
     </form>
